@@ -10,7 +10,6 @@ A simple and interactive Tic-Tac-Toe game built using HTML, CSS, and JavaScript.
 
 - Playable in the browser
 - Two-player mode (Player vs Player)
-
 - Responsive design for mobile and desktop
 
 ## Technologies Used
@@ -27,3 +26,4 @@ To run the Tic-Tac-Toe game locally, follow these steps:
 
    ```bash
    git clone https://github.com/yourusername/tic-tac-toe.git
+   ```
