@@ -7,7 +7,7 @@ A simple and interactive Tic-Tac-Toe game built using HTML, CSS, and JavaScript.
 [Live Demo](https://your-demo-link.com)
 
 ## Features
-
+ 
 - Playable in the browser
 - Two-player mode (Player vs Player)
 - Responsive design for mobile and desktop
