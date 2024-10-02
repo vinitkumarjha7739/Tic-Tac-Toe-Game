@@ -3,16 +3,19 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background-color: #4c5670;
   text-align: center;
 }
+
 .container {
   height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .game {
   height: 60vmin;
   width: 60vmin;
@@ -22,6 +25,7 @@ body {
   align-items: center;
   gap: 1.5vmin;
 }
+
 .box {
   height: 18vmin;
   width: 18vmin;
@@ -32,6 +36,7 @@ body {
   color: #4c5670;
   background-color: #ffffcf;
 }
+
 #reset-btn {
   padding: 1rem;
   font-size: 1.25rem;
@@ -47,10 +52,12 @@ body {
   border: none;
   border-radius: 2rem;
 }
+
 #msg {
   color: #ffffcf;
   font-size: 7vmin;
 }
+
 .msg-container {
   height: 100vmin;
   display: flex;
@@ -59,6 +66,7 @@ body {
   flex-direction: column;
   gap: 3rem;
 }
+
 .hide {
   display: none;
 }

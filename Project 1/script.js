@@ -5,7 +5,7 @@ let msgContainer = document.querySelector(".msg-container");
 let msg = document.querySelector("#msg");
 
 let turnO = true;//PlayerX,PlayerO
-let count = 0;//To track draw
+let count = 0;//To track draw no player was won
 
 
 const winPatterns = [
@@ -26,14 +26,15 @@ const resetGame = () => {
     msgContainer.classList.add("hide");
 };
 
+
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
         if (turnO) {
-            // PlayerO
+
             box.innerText = "O";
             turnO = false;
         } else {
-            // PlayerX
+
             box.innerText = "X";
             turnO = true;
         }
